@@ -1,5 +1,5 @@
 ################################################
-#####Tutorial 1- 7/27/23
+#####Tutorial 1- 8/24/23
 #####Volcano plot
 ################################################
 
@@ -12,7 +12,7 @@ library(ggplot2)
 library(ggrepel)
 
 #Set working directory
-setwd("/endosome/work/Neuroinformatics_Core/s217793/setbp1/DEG")
+setwd("/data")
 
 #Read the data we will use for plotting
 df<- read.table(file="pseudobulk_allcells_kovswt.txt", header = TRUE, sep = "\t")
